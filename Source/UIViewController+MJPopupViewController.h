@@ -11,7 +11,9 @@
 typedef enum {
     MJPopupViewAnimationSlideBottomTop = 1,
     MJPopupViewAnimationSlideRightLeft,
+    MJPopupViewAnimationSlideRightRight,
     MJPopupViewAnimationSlideLeftRight,
+    MJPopupViewAnimationSlideLeftLeft,
     MJPopupViewAnimationSlideBottomBottom,
     MJPopupViewAnimationFade
 } MJPopupViewAnimation;
