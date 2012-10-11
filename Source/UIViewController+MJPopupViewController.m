@@ -270,7 +270,7 @@
     popupView.alpha = 0.0f;
     
     [UIView animateWithDuration:kPopupModalAnimationDuration animations:^{
-        backgroundView.alpha = 0.5f;
+        backgroundView.alpha = 1.0f;
         popupView.alpha = 1.0f;
     } completion:^(BOOL finished) {
     }];
